@@ -2,13 +2,18 @@ body{
   background: #f9f8fe;
 }
 
-a{
+a {
   color: #32afb3;
   text-decoration: none;
 }
 
 a:hover{
   color: black;
+}
+
+.App{
+max-width: 960px;
+margin: 0 auto;
 }
 
 .App-header{
