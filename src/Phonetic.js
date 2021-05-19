@@ -1,5 +1,5 @@
 import React from "react";
-// import Listen from "./Listen";
+import "./Phonetics.css";
 
 export default function Phonetic(props){
   return (
@@ -11,8 +11,7 @@ export default function Phonetic(props){
           <i class="fas fa-volume-up"> </i>{" "}
         </span>
       </a>
-      <br />
-      {props.phonetic.text}
+      <span className="text">{props.phonetic.text} </span>
     </div>
   );
 }
