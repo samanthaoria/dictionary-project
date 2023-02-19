@@ -2,7 +2,7 @@ import logo from "./logoSO.png";
 import "./App.css";
 import Dictionary from "./Dictionary";
 
-export default function App() {
+export function App() {
   return (
     <div className="App">
       <div className="container">
@@ -13,12 +13,16 @@ export default function App() {
           <Dictionary defaultKeyword="sunset" />
         </main>
         <footer className="App-footer">
-          <small> Coded by 
-            <a href="https://github.com/samanthaoria/dictionary-project.git"> Samantha Oriá </a>
-            </small>
+          <small>
+            {" "}
+            Coded by
+            <a href="https://github.com/samanthaoria/dictionary-project.git">
+              {" "}
+              Samantha Oriá{" "}
+            </a>
+          </small>
         </footer>
       </div>
     </div>
   );
 }
-
